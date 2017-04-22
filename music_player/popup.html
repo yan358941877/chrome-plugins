@@ -1,0 +1,69 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="referrer" content="never">
+    <link rel="stylesheet" type="text/css" href="./style/font/iconfont.css">
+    <link rel="stylesheet" href="./style/css/music-player.css">
+    <script src="js/jquery-3.1.1.js"></script>
+</head>
+
+<body>
+    <div class="music-player">
+        <div class="title-bar">
+            <h4>xin FM</h4>
+            <span class="voice iconfont icon-volume"></span>
+            <ul class="volume">
+                <li></li>
+                <li></li>
+                <li class="active"></li>
+                <li class="active"></li
+            </ul>
+            
+        </div>
+        <div class="channel">
+            <div class="channel-ct">
+                <ul class="clearfloat">
+                    <li class="channel-item"  data-channel-id="public_tuijian_billboard"><span>Billboard</span></li>
+                    <li class="channel-item active" data-channel-id="public_fengge_liuxing"><span>Pop</span></li>
+                    <li class="channel-item" data-channel-id="public_shiguang_80hou"><span>80后</span></li>
+                    <li class="channel-item" data-channel-id="public_fengge_xiaoqingxin"><span>小清新</span></li>
+                    <li class="channel-item" 
+                    data-channel-id="public_fengge_yaogun"><span>摇滚</span></li>
+                    <li class="channel-item" data-channel-id="public_fengge_minyao"><span>民谣</span></li>
+                    <li class="channel-item" data-channel-id="public_yuzhong_oumei"><span>欧美</span></li>
+                    <li class="channel-item" data-channel-id="public_yuzhong_riyu"><span>日语</span></li>
+                    <li class="channel-item" data-channel-id="public_yuzhong_hanyu"><span>韩语</span></li>
+                </ul>
+            </div>
+            <span class="pre-channel iconfont icon-rewind"></span>
+            <span class="next-channel iconfont icon-fast-forward"></span>
+        </div>
+        <div class="music-panel clearfloat">
+            <div class="left-part">
+                <img src="http://musicdata.baidu.com/data2/pic/88733215/88733215.jpg" alt="">
+            </div>
+            <div class="right-part">
+                <div class="music-info">
+                    <p class="singer"></p>
+                    <p class="music-name"></p>
+                    <span class="music-time">-00:00</span>
+                </div>
+                <div class="operate">
+                    <div class="process">
+                        <div class="now"></div>
+                    </div>
+                    <div><span class="heart iconfont icon-heart"></span></div>
+                    <div><span class="play iconfont icon-play"></span></div>
+                    <div><span class="skip-forward iconfont icon-skip-forward"></span></div>
+                </div>
+            </div>
+        </div>
+        <div class="music-lyric">
+        </div>
+    </div>
+    <script src="js/popup.js"></script>
+
+</body>
+
+</html>
